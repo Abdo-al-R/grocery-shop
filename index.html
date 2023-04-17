@@ -22,6 +22,10 @@
           <img src="images/logo.png" alt="logo" aria-hidden="true" />
           <span>make my deals</span>
         </div>
+        <input type="checkbox" id="click" />
+        <label for="click" class="menu-btn">
+          <i class="fa-solid fa-bars fa2"></i>
+        </label>
         <nav>
           <ul>
             <li>home</li>
@@ -42,11 +46,22 @@
           </ul>
         </nav>
       </div>
-      <label class="label-1">
-        <input type="text" placeholder="search" />
-        <i class="fa-solid fa-bars" aria-hidden="true"></i>
-        <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
-      </label>
+      <div class="bars">
+              <label class="label-1">
+                <input type="text" placeholder="search" />
+                <i class="fa-solid fa-bars" aria-hidden="true"></i>
+                <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+              </label>
+              <div class="select-btn">
+                        <i class="fa-solid fa-location-dot"></i>
+                      <select>
+                        <option value="">Deliver To city 1</option>
+                        <option value="">Deliver To city 2</option>
+                        <option value="">Deliver To city 3</option>
+                      </select>
+              </div>
+      </div>
+
     </header>
     <section class="sec-1">
       <div class="grocery-img">
@@ -144,14 +159,15 @@
             <div class="product-img">
               <img src="images/Dairy Products/Amul Fresh Cream.png" alt="" />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Amul Fresh Cream</span>
                 <span class="product-weight">1 kg</span>
               </p>
               <p>
                 <span class="product-price">₹220</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
+                
               </p>
             </div>
           </div>
@@ -163,14 +179,14 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Mother Dairy Classic Curd</span>
                 <span class="product-weight">1 l</span>
               </p>
               <p>
                 <span class="product-price">₹72</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -182,7 +198,7 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name"
                   >Amul Gold Full Cream Fresh Milk (Pouch)</span
@@ -191,7 +207,7 @@
               </p>
               <p>
                 <span class="product-price">₹66</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -203,14 +219,14 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Amul Butter - Pasteurised</span>
                 <span class="product-weight">500g</span>
               </p>
               <p>
                 <span class="product-price">₹275</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -222,16 +238,14 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
-                <span class="product-name"
-                  >Nestle Everyday Dairy Whitener (Pouch)</span
-                >
+                <span class="product-name">Nestle Everyday Dairy Whitener</span>
                 <span class="product-weight">400g</span>
               </p>
               <p>
                 <span class="product-price">₹242</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -243,7 +257,7 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name"
                   >Amul Taaza Toned Fresh Milk (Pouch)</span
@@ -252,7 +266,7 @@
               </p>
               <p>
                 <span class="product-price">₹54</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -264,14 +278,14 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Mother Dairy Mishti Doi</span>
                 <span class="product-weight">400g</span>
               </p>
               <p>
                 <span class="product-price">₹75</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -280,14 +294,14 @@
             <div class="product-img">
               <img src="images/Dairy Products/Amul Masti Dahi.png" alt="" />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Amul Masti Dahi</span>
                 <span class="product-weight">300g</span>
               </p>
               <p>
                 <span class="product-price">₹34</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -304,14 +318,14 @@
             <div class="product-img">
               <img src="images/Best Offers/offer1.png" alt="" />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Amul Fresh Cream</span>
                 <span class="product-weight">1 kg</span>
               </p>
               <p>
                 <span class="product-price">₹220</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -323,14 +337,14 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Mother Dairy Classic Curd</span>
                 <span class="product-weight">1 l</span>
               </p>
               <p>
                 <span class="product-price">₹72</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -342,7 +356,7 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name"
                   >Amul Gold Full Cream Fresh Milk (Pouch)</span
@@ -351,7 +365,7 @@
               </p>
               <p>
                 <span class="product-price">₹66</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -363,14 +377,14 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Amul Butter - Pasteurised</span>
                 <span class="product-weight">500g</span>
               </p>
               <p>
                 <span class="product-price">₹275</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -382,7 +396,7 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name"
                   >Nestle Everyday Dairy Whitener (Pouch)</span
@@ -391,7 +405,7 @@
               </p>
               <p>
                 <span class="product-price">₹242</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -403,7 +417,7 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name"
                   >Amul Taaza Toned Fresh Milk (Pouch)</span
@@ -412,7 +426,7 @@
               </p>
               <p>
                 <span class="product-price">₹54</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -424,14 +438,14 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Mother Dairy Mishti Doi</span>
                 <span class="product-weight">400g</span>
               </p>
               <p>
                 <span class="product-price">₹75</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -440,14 +454,14 @@
             <div class="product-img">
               <img src="images/Best Offers/offer8.png" alt="" />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Amul Masti Dahi</span>
                 <span class="product-weight">300g</span>
               </p>
               <p>
                 <span class="product-price">₹34</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -472,18 +486,18 @@
         <div class="ad"><img src="images/only-gain.png" alt="" /></div>
 
         <div class="cleaning-cards">
-          <div class="c">
+          <div class="card">
             <div class="product-img">
               <img src="images/cleaning-products/clean1.png" alt="" />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Amul Fresh Cream</span>
                 <span class="product-weight">1 kg</span>
               </p>
               <p>
                 <span class="product-price">₹220</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -495,14 +509,14 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Mother Dairy Classic Curd</span>
                 <span class="product-weight">1 l</span>
               </p>
               <p>
                 <span class="product-price">₹72</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -514,7 +528,7 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name"
                   >Amul Gold Full Cream Fresh Milk (Pouch)</span
@@ -523,7 +537,7 @@
               </p>
               <p>
                 <span class="product-price">₹66</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -535,14 +549,14 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Amul Butter - Pasteurised</span>
                 <span class="product-weight">500g</span>
               </p>
               <p>
                 <span class="product-price">₹275</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -551,14 +565,14 @@
             <div class="product-img">
               <img src="images/cleaning-products/clean5.png" alt="" />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Amul Fresh Cream</span>
                 <span class="product-weight">1 kg</span>
               </p>
               <p>
                 <span class="product-price">₹220</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -570,14 +584,14 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Mother Dairy Classic Curd</span>
                 <span class="product-weight">1 l</span>
               </p>
               <p>
                 <span class="product-price">₹72</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -589,7 +603,7 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name"
                   >Amul Gold Full Cream Fresh Milk (Pouch)</span
@@ -598,7 +612,7 @@
               </p>
               <p>
                 <span class="product-price">₹66</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -610,14 +624,14 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Amul Butter - Pasteurised</span>
                 <span class="product-weight">500g</span>
               </p>
               <p>
                 <span class="product-price">₹275</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -628,14 +642,14 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Amul Butter - Pasteurised</span>
                 <span class="product-weight">500g</span>
               </p>
               <p>
                 <span class="product-price">₹275</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -646,14 +660,14 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Amul Butter - Pasteurised</span>
                 <span class="product-weight">500g</span>
               </p>
               <p>
                 <span class="product-price">₹275</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -690,14 +704,14 @@
               <div class="product-img">
                 <img src="images/snaks/snak1.png" alt="" />
               </div>
-              <div class="product-detailes">
+              <div class="product-details">
                 <p>
                   <span class="product-name">Amul Fresh Cream</span>
                   <span class="product-weight">1 kg</span>
                 </p>
                 <p>
                   <span class="product-price">₹220</span>
-                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-plus"></i>
                 </p>
               </div>
             </div>
@@ -709,14 +723,14 @@
                   alt=""
                 />
               </div>
-              <div class="product-detailes">
+              <div class="product-details">
                 <p>
                   <span class="product-name">Mother Dairy Classic Curd</span>
                   <span class="product-weight">1 l</span>
                 </p>
                 <p>
                   <span class="product-price">₹72</span>
-                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-plus"></i>
                 </p>
               </div>
             </div>
@@ -728,7 +742,7 @@
                   alt=""
                 />
               </div>
-              <div class="product-detailes">
+              <div class="product-details">
                 <p>
                   <span class="product-name"
                     >Amul Gold Full Cream Fresh Milk (Pouch)</span
@@ -737,7 +751,7 @@
                 </p>
                 <p>
                   <span class="product-price">₹66</span>
-                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-plus"></i>
                 </p>
               </div>
             </div>
@@ -749,14 +763,14 @@
                   alt=""
                 />
               </div>
-              <div class="product-detailes">
+              <div class="product-details">
                 <p>
                   <span class="product-name">Amul Butter - Pasteurised</span>
                   <span class="product-weight">500g</span>
                 </p>
                 <p>
                   <span class="product-price">₹275</span>
-                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-plus"></i>
                 </p>
               </div>
             </div>
@@ -768,7 +782,7 @@
                   alt=""
                 />
               </div>
-              <div class="product-detailes">
+              <div class="product-details">
                 <p>
                   <span class="product-name"
                     >Nestle Everyday Dairy Whitener (Pouch)</span
@@ -777,7 +791,7 @@
                 </p>
                 <p>
                   <span class="product-price">₹242</span>
-                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-plus"></i>
                 </p>
               </div>
             </div>
@@ -789,7 +803,7 @@
                   alt=""
                 />
               </div>
-              <div class="product-detailes">
+              <div class="product-details">
                 <p>
                   <span class="product-name"
                     >Amul Taaza Toned Fresh Milk (Pouch)</span
@@ -798,7 +812,7 @@
                 </p>
                 <p>
                   <span class="product-price">₹54</span>
-                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-plus"></i>
                 </p>
               </div>
             </div>
@@ -810,14 +824,14 @@
                   alt=""
                 />
               </div>
-              <div class="product-detailes">
+              <div class="product-details">
                 <p>
                   <span class="product-name">Mother Dairy Mishti Doi</span>
                   <span class="product-weight">400g</span>
                 </p>
                 <p>
                   <span class="product-price">₹75</span>
-                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-plus"></i>
                 </p>
               </div>
             </div>
@@ -826,14 +840,14 @@
               <div class="product-img">
                 <img src="images/snaks/snak8.png" alt="" />
               </div>
-              <div class="product-detailes">
+              <div class="product-details">
                 <p>
                   <span class="product-name">Amul Masti Dahi</span>
                   <span class="product-weight">300g</span>
                 </p>
                 <p>
                   <span class="product-price">₹34</span>
-                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-plus"></i>
                 </p>
               </div>
             </div>
@@ -846,14 +860,14 @@
               <div class="product-img">
                 <img src="images/snaks/snak9.png" alt="" />
               </div>
-              <div class="product-detailes">
+              <div class="product-details">
                 <p>
                   <span class="product-name">Amul Fresh Cream</span>
                   <span class="product-weight">1 kg</span>
                 </p>
                 <p>
                   <span class="product-price">₹220</span>
-                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-plus"></i>
                 </p>
               </div>
             </div>
@@ -865,14 +879,14 @@
                   alt=""
                 />
               </div>
-              <div class="product-detailes">
+              <div class="product-details">
                 <p>
                   <span class="product-name">Mother Dairy Classic Curd</span>
                   <span class="product-weight">1 l</span>
                 </p>
                 <p>
                   <span class="product-price">₹72</span>
-                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-plus"></i>
                 </p>
               </div>
             </div>
@@ -884,7 +898,7 @@
                   alt=""
                 />
               </div>
-              <div class="product-detailes">
+              <div class="product-details">
                 <p>
                   <span class="product-name"
                     >Amul Gold Full Cream Fresh Milk (Pouch)</span
@@ -893,7 +907,7 @@
                 </p>
                 <p>
                   <span class="product-price">₹66</span>
-                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-plus"></i>
                 </p>
               </div>
             </div>
@@ -905,14 +919,14 @@
                   alt=""
                 />
               </div>
-              <div class="product-detailes">
+              <div class="product-details">
                 <p>
                   <span class="product-name">Amul Butter - Pasteurised</span>
                   <span class="product-weight">500g</span>
                 </p>
                 <p>
                   <span class="product-price">₹275</span>
-                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-plus"></i>
                 </p>
               </div>
             </div>
@@ -924,7 +938,7 @@
                   alt=""
                 />
               </div>
-              <div class="product-detailes">
+              <div class="product-details">
                 <p>
                   <span class="product-name"
                     >Nestle Everyday Dairy Whitener (Pouch)</span
@@ -933,7 +947,7 @@
                 </p>
                 <p>
                   <span class="product-price">₹242</span>
-                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-plus"></i>
                 </p>
               </div>
             </div>
@@ -945,7 +959,7 @@
                   alt=""
                 />
               </div>
-              <div class="product-detailes">
+              <div class="product-details">
                 <p>
                   <span class="product-name"
                     >Amul Taaza Toned Fresh Milk (Pouch)</span
@@ -954,7 +968,7 @@
                 </p>
                 <p>
                   <span class="product-price">₹54</span>
-                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-plus"></i>
                 </p>
               </div>
             </div>
@@ -966,14 +980,14 @@
                   alt=""
                 />
               </div>
-              <div class="product-detailes">
+              <div class="product-details">
                 <p>
                   <span class="product-name">Mother Dairy Mishti Doi</span>
                   <span class="product-weight">400g</span>
                 </p>
                 <p>
                   <span class="product-price">₹75</span>
-                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-plus"></i>
                 </p>
               </div>
             </div>
@@ -982,14 +996,14 @@
               <div class="product-img">
                 <img src="images/snaks/snak16.png" alt="" />
               </div>
-              <div class="product-detailes">
+              <div class="product-details">
                 <p>
                   <span class="product-name">Amul Masti Dahi</span>
                   <span class="product-weight">300g</span>
                 </p>
                 <p>
                   <span class="product-price">₹34</span>
-                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-plus"></i>
                 </p>
               </div>
             </div>
@@ -1031,14 +1045,14 @@
                 <div class="product-img">
                   <img src="images/Personal care Products/care1.png" alt="" />
                 </div>
-                <div class="product-detailes">
+                <div class="product-details">
                   <p>
                     <span class="product-name">Amul Fresh Cream</span>
                     <span class="product-weight">1 kg</span>
                   </p>
                   <p>
                     <span class="product-price">₹220</span>
-                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-cart-plus"></i>
                   </p>
                 </div>
               </div>
@@ -1050,14 +1064,14 @@
                     alt=""
                   />
                 </div>
-                <div class="product-detailes">
+                <div class="product-details">
                   <p>
                     <span class="product-name">Mother Dairy Classic Curd</span>
                     <span class="product-weight">1 l</span>
                   </p>
                   <p>
                     <span class="product-price">₹72</span>
-                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-cart-plus"></i>
                   </p>
                 </div>
               </div>
@@ -1069,7 +1083,7 @@
                     alt=""
                   />
                 </div>
-                <div class="product-detailes">
+                <div class="product-details">
                   <p>
                     <span class="product-name"
                       >Amul Gold Full Cream Fresh Milk (Pouch)</span
@@ -1078,7 +1092,7 @@
                   </p>
                   <p>
                     <span class="product-price">₹66</span>
-                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-cart-plus"></i>
                   </p>
                 </div>
               </div>
@@ -1090,14 +1104,14 @@
                     alt=""
                   />
                 </div>
-                <div class="product-detailes">
+                <div class="product-details">
                   <p>
                     <span class="product-name">Amul Butter - Pasteurised</span>
                     <span class="product-weight">500g</span>
                   </p>
                   <p>
                     <span class="product-price">₹275</span>
-                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-cart-plus"></i>
                   </p>
                 </div>
               </div>
@@ -1109,7 +1123,7 @@
                     alt=""
                   />
                 </div>
-                <div class="product-detailes">
+                <div class="product-details">
                   <p>
                     <span class="product-name"
                       >Nestle Everyday Dairy Whitener (Pouch)</span
@@ -1118,7 +1132,7 @@
                   </p>
                   <p>
                     <span class="product-price">₹242</span>
-                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-cart-plus"></i>
                   </p>
                 </div>
               </div>
@@ -1130,7 +1144,7 @@
                     alt=""
                   />
                 </div>
-                <div class="product-detailes">
+                <div class="product-details">
                   <p>
                     <span class="product-name"
                       >Amul Taaza Toned Fresh Milk (Pouch)</span
@@ -1139,7 +1153,7 @@
                   </p>
                   <p>
                     <span class="product-price">₹54</span>
-                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-cart-plus"></i>
                   </p>
                 </div>
               </div>
@@ -1151,14 +1165,14 @@
                     alt=""
                   />
                 </div>
-                <div class="product-detailes">
+                <div class="product-details">
                   <p>
                     <span class="product-name">Mother Dairy Mishti Doi</span>
                     <span class="product-weight">400g</span>
                   </p>
                   <p>
                     <span class="product-price">₹75</span>
-                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-cart-plus"></i>
                   </p>
                 </div>
               </div>
@@ -1167,14 +1181,14 @@
                 <div class="product-img">
                   <img src="images/Personal care Products/care8.png" alt="" />
                 </div>
-                <div class="product-detailes">
+                <div class="product-details">
                   <p>
                     <span class="product-name">Amul Masti Dahi</span>
                     <span class="product-weight">300g</span>
                   </p>
                   <p>
                     <span class="product-price">₹34</span>
-                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-cart-plus"></i>
                   </p>
                 </div>
               </div>
@@ -1187,14 +1201,14 @@
                 <div class="product-img">
                   <img src="images/Personal care Products/care9.png" alt="" />
                 </div>
-                <div class="product-detailes">
+                <div class="product-details">
                   <p>
                     <span class="product-name">Amul Fresh Cream</span>
                     <span class="product-weight">1 kg</span>
                   </p>
                   <p>
                     <span class="product-price">₹220</span>
-                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-cart-plus"></i>
                   </p>
                 </div>
               </div>
@@ -1206,14 +1220,14 @@
                     alt=""
                   />
                 </div>
-                <div class="product-detailes">
+                <div class="product-details">
                   <p>
                     <span class="product-name">Mother Dairy Classic Curd</span>
                     <span class="product-weight">1 l</span>
                   </p>
                   <p>
                     <span class="product-price">₹72</span>
-                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-cart-plus"></i>
                   </p>
                 </div>
               </div>
@@ -1225,7 +1239,7 @@
                     alt=""
                   />
                 </div>
-                <div class="product-detailes">
+                <div class="product-details">
                   <p>
                     <span class="product-name"
                       >Amul Gold Full Cream Fresh Milk (Pouch)</span
@@ -1234,7 +1248,7 @@
                   </p>
                   <p>
                     <span class="product-price">₹66</span>
-                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-cart-plus"></i>
                   </p>
                 </div>
               </div>
@@ -1246,14 +1260,14 @@
                     alt=""
                   />
                 </div>
-                <div class="product-detailes">
+                <div class="product-details">
                   <p>
                     <span class="product-name">Amul Butter - Pasteurised</span>
                     <span class="product-weight">500g</span>
                   </p>
                   <p>
                     <span class="product-price">₹275</span>
-                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-cart-plus"></i>
                   </p>
                 </div>
               </div>
@@ -1265,7 +1279,7 @@
                     alt=""
                   />
                 </div>
-                <div class="product-detailes">
+                <div class="product-details">
                   <p>
                     <span class="product-name"
                       >Nestle Everyday Dairy Whitener (Pouch)</span
@@ -1274,7 +1288,7 @@
                   </p>
                   <p>
                     <span class="product-price">₹242</span>
-                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-cart-plus"></i>
                   </p>
                 </div>
               </div>
@@ -1286,7 +1300,7 @@
                     alt=""
                   />
                 </div>
-                <div class="product-detailes">
+                <div class="product-details">
                   <p>
                     <span class="product-name"
                       >Amul Taaza Toned Fresh Milk (Pouch)</span
@@ -1295,7 +1309,7 @@
                   </p>
                   <p>
                     <span class="product-price">₹54</span>
-                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-cart-plus"></i>
                   </p>
                 </div>
               </div>
@@ -1307,14 +1321,14 @@
                     alt=""
                   />
                 </div>
-                <div class="product-detailes">
+                <div class="product-details">
                   <p>
                     <span class="product-name">Mother Dairy Mishti Doi</span>
                     <span class="product-weight">400g</span>
                   </p>
                   <p>
                     <span class="product-price">₹75</span>
-                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-cart-plus"></i>
                   </p>
                 </div>
               </div>
@@ -1323,14 +1337,14 @@
                 <div class="product-img">
                   <img src="images/Personal care Products/care16.png" alt="" />
                 </div>
-                <div class="product-detailes">
+                <div class="product-details">
                   <p>
                     <span class="product-name">Amul Masti Dahi</span>
                     <span class="product-weight">300g</span>
                   </p>
                   <p>
                     <span class="product-price">₹34</span>
-                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-cart-plus"></i>
                   </p>
                 </div>
               </div>
@@ -1354,14 +1368,14 @@
             <div class="product-img">
               <img src="images/Dairy Products/Amul Fresh Cream.png" alt="" />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Amul Fresh Cream</span>
                 <span class="product-weight">1 kg</span>
               </p>
               <p>
                 <span class="product-price">₹220</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1373,14 +1387,14 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Mother Dairy Classic Curd</span>
                 <span class="product-weight">1 l</span>
               </p>
               <p>
                 <span class="product-price">₹72</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1392,7 +1406,7 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name"
                   >Amul Gold Full Cream Fresh Milk (Pouch)</span
@@ -1401,7 +1415,7 @@
               </p>
               <p>
                 <span class="product-price">₹66</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1413,14 +1427,14 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Amul Butter - Pasteurised</span>
                 <span class="product-weight">500g</span>
               </p>
               <p>
                 <span class="product-price">₹275</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1432,7 +1446,7 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name"
                   >Nestle Everyday Dairy Whitener (Pouch)</span
@@ -1441,7 +1455,7 @@
               </p>
               <p>
                 <span class="product-price">₹242</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1453,7 +1467,7 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name"
                   >Amul Taaza Toned Fresh Milk (Pouch)</span
@@ -1462,7 +1476,7 @@
               </p>
               <p>
                 <span class="product-price">₹54</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1474,14 +1488,14 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Mother Dairy Mishti Doi</span>
                 <span class="product-weight">400g</span>
               </p>
               <p>
                 <span class="product-price">₹75</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1490,14 +1504,14 @@
             <div class="product-img">
               <img src="images/Dairy Products/Amul Masti Dahi.png" alt="" />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Amul Masti Dahi</span>
                 <span class="product-weight">300g</span>
               </p>
               <p>
                 <span class="product-price">₹34</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1514,14 +1528,14 @@
             <div class="product-img">
               <img src="images/Best Offers/offer1.png" alt="" />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Amul Fresh Cream</span>
                 <span class="product-weight">1 kg</span>
               </p>
               <p>
                 <span class="product-price">₹220</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1533,14 +1547,14 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Mother Dairy Classic Curd</span>
                 <span class="product-weight">1 l</span>
               </p>
               <p>
                 <span class="product-price">₹72</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1552,7 +1566,7 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name"
                   >Amul Gold Full Cream Fresh Milk (Pouch)</span
@@ -1561,7 +1575,7 @@
               </p>
               <p>
                 <span class="product-price">₹66</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1573,14 +1587,14 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Amul Butter - Pasteurised</span>
                 <span class="product-weight">500g</span>
               </p>
               <p>
                 <span class="product-price">₹275</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1592,7 +1606,7 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name"
                   >Nestle Everyday Dairy Whitener (Pouch)</span
@@ -1601,7 +1615,7 @@
               </p>
               <p>
                 <span class="product-price">₹242</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1613,7 +1627,7 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name"
                   >Amul Taaza Toned Fresh Milk (Pouch)</span
@@ -1622,7 +1636,7 @@
               </p>
               <p>
                 <span class="product-price">₹54</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1634,14 +1648,14 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Mother Dairy Mishti Doi</span>
                 <span class="product-weight">400g</span>
               </p>
               <p>
                 <span class="product-price">₹75</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1650,14 +1664,14 @@
             <div class="product-img">
               <img src="images/Best Offers/offer8.png" alt="" />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Amul Masti Dahi</span>
                 <span class="product-weight">300g</span>
               </p>
               <p>
                 <span class="product-price">₹34</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1674,14 +1688,14 @@
             <div class="product-img">
               <img src="images/snaks/snak9.png" alt="" />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Amul Fresh Cream</span>
                 <span class="product-weight">1 kg</span>
               </p>
               <p>
                 <span class="product-price">₹220</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1693,14 +1707,14 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Mother Dairy Classic Curd</span>
                 <span class="product-weight">1 l</span>
               </p>
               <p>
                 <span class="product-price">₹72</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1712,7 +1726,7 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name"
                   >Amul Gold Full Cream Fresh Milk (Pouch)</span
@@ -1721,7 +1735,7 @@
               </p>
               <p>
                 <span class="product-price">₹66</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1733,14 +1747,14 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Amul Butter - Pasteurised</span>
                 <span class="product-weight">500g</span>
               </p>
               <p>
                 <span class="product-price">₹275</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1752,7 +1766,7 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name"
                   >Nestle Everyday Dairy Whitener (Pouch)</span
@@ -1761,7 +1775,7 @@
               </p>
               <p>
                 <span class="product-price">₹242</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1773,7 +1787,7 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name"
                   >Amul Taaza Toned Fresh Milk (Pouch)</span
@@ -1782,7 +1796,7 @@
               </p>
               <p>
                 <span class="product-price">₹54</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1794,14 +1808,14 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Mother Dairy Mishti Doi</span>
                 <span class="product-weight">400g</span>
               </p>
               <p>
                 <span class="product-price">₹75</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1810,14 +1824,14 @@
             <div class="product-img">
               <img src="images/snaks/snak16.png" alt="" />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Amul Masti Dahi</span>
                 <span class="product-weight">300g</span>
               </p>
               <p>
                 <span class="product-price">₹34</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1834,14 +1848,14 @@
             <div class="product-img">
               <img src="images/snaks/snak1.png" alt="" />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Amul Fresh Cream</span>
                 <span class="product-weight">1 kg</span>
               </p>
               <p>
                 <span class="product-price">₹220</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1853,14 +1867,14 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Mother Dairy Classic Curd</span>
                 <span class="product-weight">1 l</span>
               </p>
               <p>
                 <span class="product-price">₹72</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1872,7 +1886,7 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name"
                   >Amul Gold Full Cream Fresh Milk (Pouch)</span
@@ -1881,7 +1895,7 @@
               </p>
               <p>
                 <span class="product-price">₹66</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1893,14 +1907,14 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Amul Butter - Pasteurised</span>
                 <span class="product-weight">500g</span>
               </p>
               <p>
                 <span class="product-price">₹275</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1912,7 +1926,7 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name"
                   >Nestle Everyday Dairy Whitener (Pouch)</span
@@ -1921,7 +1935,7 @@
               </p>
               <p>
                 <span class="product-price">₹242</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1933,7 +1947,7 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name"
                   >Amul Taaza Toned Fresh Milk (Pouch)</span
@@ -1942,7 +1956,7 @@
               </p>
               <p>
                 <span class="product-price">₹54</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1954,14 +1968,14 @@
                 alt=""
               />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Mother Dairy Mishti Doi</span>
                 <span class="product-weight">400g</span>
               </p>
               <p>
                 <span class="product-price">₹75</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -1970,14 +1984,14 @@
             <div class="product-img">
               <img src="images/snaks/snak8.png" alt="" />
             </div>
-            <div class="product-detailes">
+            <div class="product-details">
               <p>
                 <span class="product-name">Amul Masti Dahi</span>
                 <span class="product-weight">300g</span>
               </p>
               <p>
                 <span class="product-price">₹34</span>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus"></i>
               </p>
             </div>
           </div>
@@ -2042,14 +2056,14 @@
 
 <!-- <div class="card">
                 <div class="product-img"><img src="" alt=""></div>
-                <div class="product-detailes">
+                <div class="product-details">
                     <p>
                         <span class="product-name"></span>
                         <span class="product-weight"></span>
                     </p>
                     <p>
                         <span class="product-price">₹</span>
-                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-cart-plus"></i>
                     </p>
                 </div>
             </div> -->
