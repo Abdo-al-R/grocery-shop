@@ -1908,7 +1908,7 @@ footer a {
     position: absolute;
     top: 80px;
     right: -100%;
-    width: 55%;
+    width: 70%;
     height: 350px;
     z-index: 10;
     border-radius: 10px;
@@ -1978,12 +1978,12 @@ footer a {
   }
   
   .logo img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     margin-right: 10px;
   }
   .logo span {
-    font-size: 1.25rem;
+    font-size: .875rem;
     font-weight: 400;
     color: #e95f62;
   }
