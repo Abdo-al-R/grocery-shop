@@ -1880,3 +1880,453 @@ footer a {
   column-gap: 14px;
 }
 }
+
+@media (min-width: 250px) and (max-width: 374px){
+  .menu-btn {
+    display: block;
+  }
+  .menu-btn i {
+    display: block;
+    font-size: 15px;
+  }
+  .menu-btn {
+    position: absolute;
+    right: 10%;
+    z-index: 10;
+  }
+  #click:checked ~ .menu-btn i:before {
+    content: "\f00d";
+  }
+  .fa-bars{
+    font-size: 15px !important;
+  }
+  nav {
+    display: none;
+  }
+  #click:checked ~ nav {
+    display: block;
+    position: absolute;
+    top: 80px;
+    right: -100%;
+    width: 55%;
+    height: 350px;
+    z-index: 10;
+    border-radius: 10px;
+    padding-top: 1rem;
+    background: #e95f61bb;
+    color: #ffffff;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  #click:checked ~ nav {
+    right: 10%;
+  }
+  #click:checked ~ nav ul {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+ 
+  }
+  #click:checked ~ nav ul li img {
+    filter: invert(100%);
+  }
+  #click:checked ~ nav .sign {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+  }
+
+  
+  nav ul li:nth-child(6) p {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  nav ul li:nth-child(6) span:nth-child(1) {
+    font-size: 1.125rem;
+    font-weight: 400;
+  }
+  nav ul li:nth-child(6) span:nth-child(2) {
+    font-size: 0.688rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+  }
+  nav ul li{
+    transition: 0.2s ease;
+    cursor: pointer;
+    width: 100%;
+    display: flex;justify-content: center;
+    height: 50px;
+    border-radius: 10px;
+  }
+  nav ul li:hover{
+    background-color: #8f54a0;
+  }
+
+  header{
+    margin-bottom: 20px;
+  }
+  .head-container {
+    padding: 0 0.625rem;
+  }
+  
+  .logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  .logo span {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #e95f62;
+  }
+  
+  .bars{
+    flex-direction: column;
+    height: 200px;
+    align-items: center;
+  }
+
+  .label-1 {
+    width: 90%;
+    height: 50px;
+    position: relative;
+  }
+    .label-1 .fa-magnifying-glass {
+    position: absolute;
+    left: 18px;
+    top: 15px;
+    font-size: 1.25rem;
+    color: gray;
+  }
+  .label-1 .fa-bars{
+    position: absolute;
+    right: 18px;
+    top: 15px;
+    font-size: 1.25rem;
+    color: gray;
+  }
+
+  .select-btn {
+    width: 90%;
+    height: 50px;
+    background-color: #e95f62;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .select-btn i {
+    color: #fff;
+    margin-right: 10px;
+  }
+  .sec-2 {
+    margin-top: 40px;
+  }
+  .grocery-img {
+    height: 300px;
+    background-image: url("../images/grocery-app.png");
+    margin-bottom: 60px;
+    background-size: 375px;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+
+  }
+  .grocery-img .img-container {
+    width: 45%;
+    align-items: center;
+    transform: translate(0, 50px);
+  }
+  .grocery-img .img-container div {
+    width: 40px;
+    height: 41px;
+    margin-bottom: 10px;
+  }
+  .grocery-img .img-container img{
+    width: 30px;
+    height: 30px;
+  }
+  .grocery-img .img-container span {
+    font-size: 0.75rem;
+    font-weight: 700;
+    width: 85px;
+    height: 50px;
+    text-align: center;
+  }
+  .carousel-1 {
+    height: unset;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem 0.625rem;
+    margin-bottom: 63px;
+  }
+  .arrow-icon {
+    width: 30px;
+    height: 30px;
+  }
+  .arrow-icon i {
+    font-size: 1.3rem;
+  }
+  .carousel-1-products {
+    width: 80%;
+    flex-wrap: wrap;
+  }
+  .carousel-1-products div {
+    width: 35%;
+  }
+  .carousel-1-products img{
+    width: 80%;
+  }
+  .carousel-1-products span {
+    width: 90%;
+    height: 43px;
+    line-height: 18px;
+    font-size: .75rem;
+  }
+  .offers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .Rectangles {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .Rectangles img {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  .Rectangles img:nth-child(2) {
+    width: 90%;
+  }
+  .carousel-btns {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+  }
+  .carousel-btns button {
+    width: 13px;
+    height: 13px;
+  }
+  .carousel-btns button:nth-child(3) {
+    width: 19px;
+    height: 19px;
+    background: rgba(23, 23, 23, 0.7);
+  }
+
+  .product-section{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .3rem;
+    margin-bottom: 25px;
+  }
+  .title h2 {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .title a {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #e95f62;
+    text-decoration: none;
+  }
+  
+  .products-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 20px;
+    column-gap: unset;
+  }
+  .card {
+    width: 112px;
+    height: 214px;
+  }
+  .product-img {
+    width: 100%;
+    height: 152px;
+  }
+  .product-img img {
+    /* width: 100%;
+    height: 85%; */
+  }
+  .product-details {
+    width: 100%;
+    height: 30%;
+    padding: 0.4rem;
+  }
+  .product-name {
+    font-size: 0.75rem;
+    line-height: 15px;
+    overflow: hidden;
+  }
+  .product-weight {
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+
+
+  .category {
+    height: unset;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+  }
+  .category-items {
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .category-items img {
+    width: 35%;
+    margin: 10px 0;
+  }
+  .cleaning-products{
+    flex-direction: column;
+    align-items: center;
+  }
+  .cleaning-cards {
+    width: 250px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 20px;
+    column-gap: unset;
+  }
+  .cleaning-cards .card {
+    width: 112px;
+    height: 214px;
+  }
+  .cleaning-cards .product-img {
+    width: 100%;
+    height: 152px;
+  }
+  .cleaning-cards .product-details {
+    width: 100%;
+    margin-right: unset;
+  }
+  .ad{
+    width: 90%;
+    height: unset;
+    margin-bottom: 20px;
+  }
+
+  .product-section {
+  margin-bottom: 50px;
+}
+
+.discount-offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.offers-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.offers-img img {
+  width: 45%;
+}
+
+.rectangles-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-bottom: 59px;
+}
+.rectangles-2 img {
+  width: 90%;
+}
+
+.last-rectangle img {
+  width: 95%;
+}
+
+footer {
+  display: flex;
+  height: unset;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #fff;
+  padding-top: 4.188rem;
+  column-gap: 10px;
+  padding-bottom: 20px;
+}
+.footer-logo {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.footer-logo img:nth-child(1) {
+  width: 80px;
+}
+.footer-logo img:nth-child(2) {
+  width: 100px;
+}
+footer ul{
+  align-items: center;
+}
+footer li {
+  margin-bottom: 15px;
+}
+footer a {
+  font-size: 1rem;
+}
+
+.ul-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 23px;
+}
+.contact-us {
+  font-size: 1rem;
+
+}
+
+.social a {
+  font-size: 1.875rem;
+  margin-right: 5px;
+}
+
+.download {
+  display: flex;
+  column-gap: 14px;
+}
+}
