@@ -23,4 +23,3 @@ addBtn.onclick = ()=>{
         count.innerText--
     }
 }
-
